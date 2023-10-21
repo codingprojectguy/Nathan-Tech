@@ -82,6 +82,58 @@ export const Header = () => {
           </div>
         </div>
       </header>
+      <header className="header-bottom py-3">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="menu-bottom d-flex align-items-center gap-30">
+                <div>
+                  <div className="dropdown">
+                    <button
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 "
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="images/menu.svg" alt="" />
+                      <span className="me-2 d-inline-block">
+                        Shop Categories
+                      </span>
+                    </button>
+                    <ul className="dropdown-menu show">
+                      <li>
+                        <Link className="dropdown-item text-white" to="">
+                          sdfsdf
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="">
+                          sdfsdf
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="">
+                          sdfsfds
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="menu-links">
+                  <div className="d-flex align-items-center gap-15">
+                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/">Our Store</NavLink>
+                    <NavLink to="/blogs">Blogs</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
+                  </div>
+                </div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     </>
   );
 };
