@@ -100,7 +100,7 @@ export const Header = () => {
                         Shop Categories
                       </span>
                     </button>
-                    <ul className="dropdown-menu show">
+                    <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item text-white" to="">
                           sdfsdf
