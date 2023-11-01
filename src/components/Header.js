@@ -103,17 +103,17 @@ export const Header = () => {
                     <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          sdfsdf
+                          Action
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          sdfsdf
+                          Another Action
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          sdfsfds
+                          More
                         </Link>
                       </li>
                     </ul>
