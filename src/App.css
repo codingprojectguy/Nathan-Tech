@@ -37,6 +37,9 @@ a {
   box-shadow: none;
   border-color: inherit;
 }
+.gap-5 {
+  gap: 5px;
+}
 .gap-10 {
   gap: 10px;
 }
@@ -321,4 +324,12 @@ product card */
 .wishlist-icon {
   top: 2%;
   right: 31px;
+}
+
+/* special product */
+
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
 }
